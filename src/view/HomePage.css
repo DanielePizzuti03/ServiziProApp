@@ -1,0 +1,61 @@
+/* Header Title */
+.header-title {
+    -fx-text-fill: #f68a1f;
+}
+
+/* Center Logo */
+.center-logo {
+    -fx-text-fill: #444444;
+}
+
+/* Menu Buttons - Stesso stile dei bottoni delle card */
+.menu-button {
+    -fx-background-color: #3b2a20;
+    -fx-background-radius: 18; /*raggio di curvatura*/
+    -fx-padding: 7 18 7 18;    /*distanza del testo dai bordi*/
+    -fx-text-fill: white;
+}
+
+.menu-button:hover { /*quando passo con il cursore*/
+    -fx-background-color: #4d3828;
+    -fx-cursor: hand;
+}
+
+.menu-button:pressed { /*quando clicco con il cursore*/
+    -fx-background-color: #2a1f17;
+}
+
+/* Card Container */
+.card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 18;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 10, 0.3, 0, 4);
+}
+
+/* Card Title */
+.card-title {
+    -fx-text-fill: #333333;
+}
+
+/* Card Description */
+.card-description {
+    -fx-text-fill: #666666;
+    -fx-text-alignment: center;
+}
+
+/* Card Action Button */
+.card-button {
+    -fx-background-color: #3b2a20;
+    -fx-background-radius: 18;
+    -fx-padding: 7 18 7 18;
+    -fx-text-fill: white;
+}
+
+.card-button:hover {
+    -fx-background-color: #4d3828;
+    -fx-cursor: hand;
+}
+
+.card-button:pressed {
+    -fx-background-color: #2a1f17;
+}
